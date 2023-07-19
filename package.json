@@ -1,0 +1,17 @@
+{
+  "name": "sql-employeecms",
+  "version": "1.0.0",
+  "description": "An employee content management system to view and manage the departments, roles, and employees in a given company",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "inquirer": "^8.2.4",
+    "express": "^4.17.1",
+    "mysql2": "^2.2.5"
+  }
+}
