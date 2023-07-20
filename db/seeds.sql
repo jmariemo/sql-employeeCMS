@@ -1,32 +1,32 @@
-INSERT INTO department (department)
-values  ("Operations"),
-        ("Accounting"),
-        ("Production"),
-        ("Cut & Sew"),
-        ("Garment Dye"),
-        ("Quality Control"),
-        ("Retail"),
-        ("Wholesale"),
-        ("Customer Service");
+USE employees_db;
 
-INSERT INTO role (title, salary, department_id)
-values  ("Operations Manager", 120000, 1),
-        ("CPA", 140000, 2),
-        ("Pattern maker", 80000, 3),
-        ("Garment Associate", 80000, 4),
-        ("Dye Supervisor", 80000, 5),
-        ("Trimming Supervisor", 60000, 6),
-        ("Web Manager", 80000, 7),
-        ("Wholesale Coordinator", 90000, 8),
-        ("Concierge", 70000, 9);
+INSERT INTO departments (name)
+values  ("Pizza Land"),
+        ("Barone Sanitation"),
+        ("Cozzarelli's"),
+        ("Cleveland Auto Body"),
+        ("Bada-Bing"),
+        ("Esplanade Construction"),
+        ("Satriale's"),
+        ("Nuovo Vesuvio");
 
-INSERT INTO employee (first_name, last_name, role_id)
-values  ("Monica", "Moyers", 1),
-        ("Bob", "Weir", 2),
-        ("Kate", "Bush", 3),
-        ("Morocco", "Moyers", 4),
-        ("Jazmin", "Rosado", 5),
-        ("Jennifer", "Mo", 6),
-        ("Ashley", "Michelson", 7),
-        ("Katya", "Honda", 8),
-        ("Paul", "Angeles", 9);
+INSERT INTO roles (title, salary, department_id)
+values  ("Dough Boy", 60000, 1),
+        ("Waste Management Consultant", 12000000, 2),
+        ("Director", 80000, 3),
+        ("Manager", 80000, 4),
+        ("Owner / Operator", 120000, 5),
+        ("No-Work", 65000, 6),
+        ("Butcher", 45000, 7),
+        ("Owner", 65000, 8);
+
+INSERT INTO employees (first_name, last_name, role_id, manager_id)
+values  ("AJ", "Soprano", 1, 2),
+        ("Tony", "Soprano", 2, 2),
+        ("Russ", "Cozzarelli", 3, 2),
+        ("Angie", "Bonpensiero", 4, 2),
+        ("Silvio", "Dante", 5, 2),
+        ("Finn", "DeTrolio", 6, 2),
+        ("Furio", "Giunta", 7, 2),
+        ("Artie", "Bucco", 8, 2),
+        ("Charmaine", "Bucco", 8, 2);
