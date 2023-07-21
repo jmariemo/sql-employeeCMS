@@ -20,9 +20,9 @@ This app would benefit from the following functions:
 ![screenshot of app function](./assets/appScreenshot.png)
 
 ### Review
-Github repository:
-* https://github.com/jmariemo/sql-employeeCMS
-Video walkthrough:
-* https://drive.google.com/file/d/1YoySqW2Itv1x5AUSFl9KGXU1fL7Kh7Hc/view
+* Github repository:</br>
+https://github.com/jmariemo/sql-employeeCMS
+* Video walkthrough:</br>
+https://drive.google.com/file/d/1YoySqW2Itv1x5AUSFl9KGXU1fL7Kh7Hc/view
 
 
